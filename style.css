@@ -1,0 +1,9 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+.main-title {
+  font-weight: 800;
+}
+.nav-link {
+  color: rgba(238, 238, 238, 0.973);
+}
