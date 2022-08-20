@@ -682,6 +682,30 @@ html {
   aspect-ratio: 1 / 1;
 }
 
+.aspect-\[16\/9\]{
+  aspect-ratio: 16/9;
+}
+
+.aspect-\[4\/3\]{
+  aspect-ratio: 4/3;
+}
+
+.aspect-video{
+  aspect-ratio: 16 / 9;
+}
+
+.aspect-\[4\\3\]{
+  aspect-ratio: 4\3;
+}
+
+.aspect-\[12\/16\]{
+  aspect-ratio: 12/16;
+}
+
+.aspect-\[16\/12\]{
+  aspect-ratio: 16/12;
+}
+
 .h-\[35px\]{
   height: 35px;
 }
@@ -692,6 +716,84 @@ html {
 
 .h-1\/4{
   height: 25%;
+}
+
+.h-\[7\/16\]{
+  height: 7/16;
+}
+
+.h-3\/4{
+  height: 75%;
+}
+
+.h-\[3\/16\]{
+  height: 3/16;
+}
+
+.h-\[0\.1875\]{
+  height: 0.1875;
+}
+
+.h-\[0\.1875\%\]{
+  height: 0.1875%;
+}
+
+.h-\[18\.75\%\]{
+  height: 18.75%;
+}
+
+.h-\[20\%\]{
+  height: 20%;
+}
+
+.h-\[21\.25\%\]{
+  height: 21.25%;
+}
+
+.h-1\.5{
+  height: 0.375rem;
+}
+
+.h-1{
+  height: 0.25rem;
+}
+
+.h-2{
+  height: 0.5rem;
+}
+
+.h-9{
+  height: 2.25rem;
+}
+
+.h-max{
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.h-min{
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+
+.h-fit{
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.h-\[43\.75\%\]{
+  height: 43.75%;
+}
+
+.h-\[16\/3\]{
+  height: 16/3;
+}
+
+.h-\[3\/12\]{
+  height: 3/12;
 }
 
 .w-screen{
@@ -718,8 +820,28 @@ html {
   max-width: 400px;
 }
 
+.grow{
+  flex-grow: 1;
+}
+
 .basis-28{
   flex-basis: 7rem;
+}
+
+.basis-40{
+  flex-basis: 10rem;
+}
+
+.basis-64{
+  flex-basis: 16rem;
+}
+
+.basis-80{
+  flex-basis: 20rem;
+}
+
+.basis-96{
+  flex-basis: 24rem;
 }
 
 .border-spacing-1{
@@ -892,6 +1014,18 @@ html {
 
 .bg-\[url\(\'\.\/img\/tool-logo\/laravel\.png\'\)\]{
   background-image: url('./img/tool-logo/laravel.png');
+}
+
+.bg-\[url\(\'\.\/img\/project\/londriin\.png\'\)\]{
+  background-image: url('./img/project/londriin.png');
+}
+
+.bg-\[url\(\'\.\/img\/project\/kuliah_euy\.png\'\)\]{
+  background-image: url('./img/project/kuliah_euy.png');
+}
+
+.bg-\[url\(\'\.\/img\/project\/attalim\.png\'\)\]{
+  background-image: url('./img/project/attalim.png');
 }
 
 .bg-contain{
@@ -1259,6 +1393,26 @@ section {
     flex-basis: 9rem;
   }
 
+  .lg\:basis-\[28rem\]{
+    flex-basis: 28rem;
+  }
+
+  .lg\:basis-\[30rem\]{
+    flex-basis: 30rem;
+  }
+
+  .lg\:basis-\[26rem\]{
+    flex-basis: 26rem;
+  }
+
+  .lg\:basis-\[24rem\]{
+    flex-basis: 24rem;
+  }
+
+  .lg\:basis-\[22rem\]{
+    flex-basis: 22rem;
+  }
+
   .lg\:justify-start{
     justify-content: flex-start;
   }
@@ -1290,6 +1444,31 @@ section {
   .lg\:py-32{
     padding-top: 8rem;
     padding-bottom: 8rem;
+  }
+
+  .lg\:px-32{
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .lg\:px-28{
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+
+  .lg\:px-20{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .lg\:px-12{
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .lg\:px-16{
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 
   .lg\:pr-0{
