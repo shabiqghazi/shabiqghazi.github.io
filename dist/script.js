@@ -8,9 +8,13 @@ let posAbout = document.getElementById("about").offsetTop - 100;
 let posSkills = document.getElementById("skills").offsetTop - 100;
 let posPortfolio = document.getElementById("portfolio").offsetTop - 100;
 let posContact = document.getElementById("contact").offsetTop - 100;
+let layer1 = document.getElementById("layer1");
+let layer3 = document.getElementById("layer3");
 
 window.addEventListener("scroll", () => {
   let y_pos = window.scrollY;
+  layer1.style.transform = `translateY(${y_pos - y_pos / 1.5}px)`;
+  layer3.style.transform = `translateY(${y_pos - y_pos / 0.7}px)`;
   if (y_pos >= 120) {
     document.getElementById("navbar").classList.add("shadow-sm");
     document.getElementById("toTop").classList.remove("invisible");
