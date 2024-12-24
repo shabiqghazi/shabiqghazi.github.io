@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shabiq Ghazi Arkaan</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css" integrity="sha512-MqL4+Io386IOPMKKyplKII0pVW5e+kb+PI/I3N87G3fHIfrgNNsRpzIXEi+0MQC0sR9xZNqZqCYVcC61fL5+Vg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.4.0/uicons-brands/css/uicons-brands.css'>
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- Header -->
+  <nav id="navbar" class="fixed w-full flex justify-between items-center md:px-16 px-5 h-20 z-20 transition-all duration-500">
+    <div class="font-bold text-s-normal">Shabiq</div>
+    <div class="md:hidden" id="open-sidebar"><i class="ri-menu-line text-xl"></i></div>
+    <div id="sidebar" class="flex flex-col md:flex-row md:justify-end md:items-center gap-8 h-screen fixed md:static top-0 -right-full md:h-fit w-full md:w-fit bg-dark md:bg-transparent md:p-0 px-5 transition-all">
+      <div class="flex justify-end items-center h-20 md:hidden">
+        <button id="close-sidebar" class="border border-white h-fit rounded-full flex justify-center items-center w-9 aspect-square">
+          <i class="ri-close-large-line"></i>
+        </button>
+      </div>
+      <a href="#" class="nav-link">Home</a>
+      <a href="#home-about" class="nav-link">About</a>
+      <a href="#home-skills" class="nav-link">Skills</a>
+      <a href="#home-gallery" class="nav-link">Gallery</a>
+      <a href="#home-experience" class="nav-link">Experience</a>
+      <a href="#home-portfolio" class="nav-link">Portfolio</a>
+    </div>
+  </nav>
+  <!-- End of Header -->
+  <section id="home-featured" class="relative min-h-screen grid grid-cols-1 md:grid-cols-2 bg-dark py-20 md:px-16 px-5">
+    <div id="particles-js" class="absolute top-0 w-full z-0 h-full"></div>
+    <div class="flex flex-col justify-center gap-4 order-2 md:order-1">
+      <p class="font-bold text-s-normal md:text-s-large z-10">Hi, there! I'm</p>
+      <p class="font-extrabold text-s-large md:text-s-huge z-10">Shabiq Ghazi Arkaan</p>
+      <p class="font-bold text-s-normal md:text-s-large z-10">a <span class="text-accent text-s-normal md:text-s-large">Software Developer</span></p>
+      <div class="flex mt-5 gap-4">
+        <a href="mailto:sgarkaan@gmail.com" target="_blank" class="social-icon group"><i class="ri-mail-fill text-accent group-hover:text-dark"></i></a>
+        <a href="https://instagram.com/shabiqghazi" target="_blank" class="social-icon group"><i class="ri-instagram-fill text-accent group-hover:text-dark"></i></a>
+        <a href="https://linkedin.com/in/shabiqghazi" target="_blank" class="social-icon group"><i class="ri-linkedin-fill text-accent group-hover:text-dark"></i></a>
+        <a href="https://x.com/shabiqghazi" target="_blank" class="social-icon group"><i class="ri-twitter-x-line text-accent group-hover:text-dark"></i></a>
+      </div>
+      <div class="w-fit z-10">
+        <button class="button shadow-accent shadow-md">Download CV</button>
+      </div>
+    </div>
+    <div class="flex justify-center items-center order-1 md:order-2">
+      <img src="./assets/img/hero-img2.png" alt="" class="w-60 md:w-80 z-10">
+    </div>
+  </section>
+  <section id="home-about" class="bg-seccondary">
+    <div class="grid md:grid-cols-2 gap-12">
+      <div class="flex flex-col justify-center items-center">
+        <img class="grayscale w-full rounded-2xl aspect-[3/2] object-cover" src="./assets/img/about-img.JPG" alt="" data-aos="fade-up" data-aos-duration="1000">
+      </div>
+      <div class="flex flex-col gap-12 justify-center">
+        <h2 data-aos="fade-up" data-aos-duration="1000">About me</h2>
+        <p data-aos="fade-up" data-aos-duration="1000">I'm <span class="font-bold">Software Developer</span> with <span class="font-bold">1+ year experience</span> who specialized to create <span class="font-bold">Web and Mobile Apps</span> using many tools, and also love <span class="font-bold">Data Science and Machine Learning.</span></p>
+        <p data-aos="fade-up" data-aos-duration="1000"></p>
+      </div>
+    </div>
+  </section>
+  <section id="home-skills" class="bg-dark flex flex-col justify-center items-center gap-12">
+    <h2>Tech I use</h2>
+    <div class="flex flex-wrap gap-8 text-white justify-center">
+      <i class="devicon-html5-plain" data-tooltip="HTML 5"></i>
+      <i class="devicon-css3-plain" data-tooltip="CSS 3"></i>
+      <i class="devicon-javascript-plain" data-tooltip="Javascript"></i>
+      <i class="devicon-typescript-plain fav" data-tooltip="Typescript"></i>
+      <i class="devicon-nodejs-plain-wordmark" data-tooltip="Node JS"></i>
+      <i class="devicon-php-plain fav" data-tooltip="PHP"></i>
+      <i class="devicon-python-plain" data-tooltip="Python"></i>
+      <i class="devicon-tailwindcss-original fav" data-tooltip="Tailwind CSS"></i>
+      <i class="devicon-bootstrap-plain" data-tooltip="Boostrap"></i>
+      <i class="devicon-materializecss-plain" data-tooltip="Materialize CSS"></i>
+      <i class="devicon-materialui-plain" data-tooltip="Material UI"></i>
+      <i class="devicon-jquery-plain" data-tooltip="jQuery"></i>
+      <i class="devicon-flutter-plain fav" data-tooltip="Flutter"></i>
+      <i class="devicon-react-original" data-tooltip="React"></i>
+      <i class="devicon-nextjs-plain fav" data-tooltip="Next.js"></i>
+      <i class="devicon-vuejs-plain fav" data-tooltip="Vue.js"></i>
+      <i class="devicon-nuxtjs-plain" data-tooltip="Nuxt"></i>
+      <i class="devicon-laravel-original fav" data-tooltip="Laravel"></i>
+      <i class="devicon-codeigniter-plain" data-tooltip="Codeigniter"></i>
+      <i class="devicon-express-original" data-tooltip="Express.js"></i>
+      <i class="devicon-nestjs-original" data-tooltip="NestJS"></i>  
+      <i class="devicon-wordpress-plain" data-tooltip="Wordpress"></i>   
+      <i class="devicon-woocommerce-plain" data-tooltip="Woocommerce"></i> 
+      <i class="devicon-firebase-plain" data-tooltip="Firebase"></i>
+      <i class="devicon-supabase-plain fav" data-tooltip="Supabase"></i>
+      <i class="devicon-socketio-original" data-tooltip="Socket.IO"></i>
+      <i class="devicon-mysql-original" data-tooltip="MySQL"></i>
+      <i class="devicon-postgresql-plain fav" data-tooltip="PostgreSQL"></i>
+      <i class="devicon-mongodb-plain" data-tooltip="MongoDB"></i>
+      <i class="devicon-tensorflow-original fav" data-tooltip="Tensorflow"></i>
+      <i class="devicon-pytorch-original" data-tooltip="PyTorch"></i>
+      <i class="devicon-keras-plain" data-tooltip="Keras"></i>
+      <i class="devicon-postman-plain" data-tooltip="Postman"></i>
+      <i class="devicon-vitejs-plain" data-tooltip="Vite"></i>
+      <i class="devicon-eslint-plain" data-tooltip="ESLint"></i>
+      <i class="devicon-figma-plain" data-tooltip="Figma"></i>
+      <i class="devicon-npm-original-wordmark" data-tooltip="Node Package Manager (NPM)"></i>
+      <i class="devicon-yarn-original" data-tooltip="Yarn"></i>
+      <i class="devicon-pypi-plain" data-tooltip="PyPi"></i>
+      <i class="devicon-git-plain" data-tooltip="GIT"></i>
+      <i class="devicon-linux-plain" data-tooltip="Linux"></i>
+      <i class="devicon-ubuntu-plain" data-tooltip="Ubuntu"></i>
+      <i class="devicon-nginx-original" data-tooltip="Nginx"></i>
+      <i class="devicon-apache-plain" data-tooltip="Apache"></i>
+    </div>
+  </section>
+  <section id="home-gallery" class="bg-gray-900 flex flex-col justify-center items-center gap-12">
+    <h2 data-aos="fade-up" data-aos-duration="1000">Gallery</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+      <div class="gallery-card" data-aos="fade-up" data-aos-duration="1000">
+        <img src="./assets/img/gallery/adhi-djati-1.jpg" class="preview" alt="">
+      </div>
+      <div class="gallery-card" data-aos="fade-up" data-aos-duration="1000">
+        <img src="./assets/img/gallery/adhi-djati-2.jpg" class="preview" alt="">
+      </div>
+      <div class="gallery-card" data-aos="fade-up" data-aos-duration="1000">
+        <img src="./assets/img/gallery/adhi-djati-3.jpg" class="preview" alt="">
+      </div>
+      <div class="gallery-card" data-aos="fade-up" data-aos-duration="1000">
+        <img src="./assets/img/gallery/graduation-1.jpg" class="preview" alt="">
+      </div>
+    </div>
+    </div>
+  </section>
+  <section id="home-experience" class="bg-dark flex flex-col justify-center items-center gap-12">
+    <h2 data-aos="fade-up" data-aos-duration="1000">Experience</h2>
+    <div class="relative carousel-wrapper w-full md:w-fit" data-aos="fade-up" data-aos-duration="1000">
+      <div
+        class="flex gap-8 overflow-hidden md:max-w-xl"
+        id="carousel"
+      >
+        <div class="h-full absolute md:-left-12 -left-5 flex items-center">
+          <button
+            class="bg-white active:scale-95 rounded-full shadow-lg aspect-square w-8 flex items-center justify-center"
+            id="prev"
+          >
+            <i class="text-dark ri-arrow-left-line"></i>
+          </button>
+        </div>
+        <div class="h-full absolute md:-right-12 -right-5 flex items-center">
+          <button
+            class="bg-white active:scale-95 rounded-full shadow-lg aspect-square w-8 flex items-center justify-center"
+            id="next"
+          >
+            <i class="text-dark ri-arrow-right-line"></i>
+          </button>
+        </div>
+        <div
+          class="carousel-item justify-center bg-white rounded-3xl min-w-full md:w-fit text-dark py-4 px-6 md:py-11 md:px-14 flex flex-col gap-8"
+        >
+          <div class="flex gap-7 items-center">
+            <img
+              src="/assets/img/experiences/cyberlabs.jpg"
+              alt="image"
+              class="w-16 aspect-square object-cover"
+            />
+            <div class="flex flex-col gap-1">
+              <p class="grow text-gray-400 text-sm">Sep 2023 - Nov 2023</p>
+              <p class="grow font-bold text-seccondary">CyberLabs</p>
+              <p class="grow text-sm text-seccondary">as Web Developer Intern</p>
+            </div>
+          </div>
+          <div class="flex flex-col gap-4">
+            <p class="text-seccondary">Built company profile website using Laravel Framework and becomes mentor in Cyberlabs Scholar program.</p>
+            <p class="flex gap-2 text-seccondary"><i class="ri-map-pin-2-fill text-seccondary"></i><span class="text-seccondary">Bandung, Indonesia</span></p>
+          </div>
+        </div>
+        <div
+          class="carousel-item justify-center bg-white rounded-3xl min-w-full md:w-fit text-dark py-4 px-6 md:py-11 md:px-14 flex flex-col gap-8"
+        >
+          <div class="flex gap-7 items-center">
+            <img
+              src="/assets/img/experiences/bitread.png"
+              alt="image"
+              class="w-16 aspect-square object-cover"
+            />
+            <div class="flex flex-col gap-1">
+              <p class="grow text-gray-400 text-sm">Sep 2023 - Dec 2023</p>
+              <p class="grow font-bold text-seccondary">PT Lontar Digital Asia (Bitread.id)</p>
+              <p class="grow text-sm text-seccondary">as Web Developer Intern</p>
+            </div>
+          </div>
+          <div class="flex flex-col gap-4">
+            <p class="text-seccondary">Built company profile website using Next JS and book publishing management app using Laravel Framework.</p>
+            <p class="flex gap-2 text-seccondary"><i class="ri-map-pin-2-fill text-seccondary"></i><span class="text-seccondary">Bandung, Indonesia</span></p>
+          </div>
+        </div>
+        <div
+          class="carousel-item justify-center bg-white rounded-3xl min-w-full md:w-fit text-dark py-4 px-6 md:py-11 md:px-14 flex flex-col gap-8"
+        >
+          <div class="flex gap-7 items-center">
+            <img
+              src="/assets/img/experiences/sahaware.jpg"
+              alt="image"
+              class="w-16 aspect-square object-cover"
+            />
+            <div class="flex flex-col gap-1">
+              <p class="grow text-gray-400 text-sm">Feb 2024 - May 2024</p>
+              <p class="grow font-bold text-seccondary">PT Sahaware Teknologi Indonesia</p>
+              <p class="grow text-sm text-seccondary">as Web Developer</p>
+            </div>
+          </div>
+          <div class="flex flex-col gap-4">
+            <p class="text-seccondary">Built web based event app for event information, selling tickets and accomodations using payment gateway.</p>
+            <p class="flex gap-2 text-seccondary"><i class="ri-map-pin-2-fill text-seccondary"></i><span class="text-seccondary">Bandung, Indonesia</span></p>
+          </div>
+        </div>
+        <div
+          class="carousel-item justify-center bg-white rounded-3xl min-w-full md:w-fit text-dark py-4 px-6 md:py-11 md:px-14 flex flex-col gap-8"
+        >
+          <div class="flex gap-7 items-center">
+            <img
+              src="/assets/img/experiences/btsid.jpg"
+              alt="image"
+              class="w-16 aspect-square object-cover"
+            />
+            <div class="flex flex-col gap-1">
+              <p class="grow text-gray-400 text-sm">Oct 2024 - Present</p>
+              <p class="grow font-bold text-seccondary">PT Intersolusi Teknologi Asia (BTS.id)</p>
+              <p class="grow text-sm text-seccondary">as Developer</p>
+            </div>
+          </div>
+          <div class="flex flex-col gap-4">
+            <p class="text-seccondary">Built web applications as a Front End Developer using Vuejs Framework.</p>
+            <p class="flex gap-2 text-seccondary"><i class="ri-map-pin-2-fill text-seccondary"></i><span class="text-seccondary">Bandung, Indonesia</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="home-portfolio" class="bg-gray-900 flex flex-col justify-center items-center gap-12">
+    <h2 data-aos="fade-up" data-aos-duration="1000">Portfolio</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="portfolio-card" data-aos="fade-up" data-aos-duration="1000">
+        <img src="./assets/img/portfolio/kuliaheuy.png" class="preview aspect-video object-cover" alt="">
+        <div class="portfolio-card-desc">
+          <p class="text-sm">2021</p>
+          <p class="font-bold">Kuliah Online App</p>
+        </div>
+      </div>
+      <div class="portfolio-card" data-aos="fade-up" data-aos-duration="1000">
+        <img src="./assets/img/portfolio/worldspine.png" class="preview aspect-video object-cover" alt="">
+        <div class="portfolio-card-desc">
+          <p class="text-sm">2024</p>
+          <p class="font-bold">Worldspine 10</p>
+        </div>
+      </div>
+      <div class="portfolio-card" data-aos="fade-up" data-aos-duration="1000">
+        <img src="./assets/img/portfolio/10thwcapafpa.png" class="preview aspect-video object-cover" alt="">
+        <div class="portfolio-card-desc">
+          <p class="text-sm">2024</p>
+          <p class="font-bold">10th WCAP - AFPA</p>
+        </div>
+      </div>
+      <div class="portfolio-card" data-aos="fade-up" data-aos-duration="1000">
+        <img src="./assets/img/portfolio/amiliin.png" class="preview aspect-video object-cover" alt="">
+        <div class="portfolio-card-desc">
+          <p class="text-sm">2023</p>
+          <p class="font-bold">Amiliin</p>
+        </div>
+      </div>
+      <div class="portfolio-card" data-aos="fade-up" data-aos-duration="1000">
+        <img src="./assets/img/portfolio/updateimun.png" class="preview aspect-video object-cover" alt="">
+        <div class="portfolio-card-desc">
+          <p class="text-sm">2024</p>
+          <p class="font-bold">UpdateImun</p>
+        </div>
+      </div>
+      <div class="portfolio-card" data-aos="fade-up" data-aos-duration="1000">
+        <img src="./assets/img/portfolio/kerkoom.png" class="preview aspect-video object-cover" alt="">
+        <div class="portfolio-card-desc">
+          <p class="text-sm">2023</p>
+          <p class="font-bold">Kerkoom</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-dark flex justify-center">
+    <div class="grid grid-cols-1 md:grid-cols-3 px-5 py-20 gap-16">
+      <div class="flex flex-col">
+        <h4 class="font-bold mb-2 text-lg">shabiqghazi.id</h4>
+        <p class="text-sm leading-loose italic font-bold">Ad maiora natus sum</p>
+        <p class="text-sm leading-loose italic">I was born for greater things.</p>
+      </div>
+      <div class="flex flex-col gap-2 text-sm">
+        <h4 class="font-bold mb-2 text-lg">Site Links</h4>
+        <a href="#home-about">About</a>
+        <a href="#home-skills">Skills</a>
+        <a href="#home-gallery">Gallery</a>
+        <a href="#home-experience">Experience</a>
+        <a href="#home-portfolio">Portfolio</a>
+      </div>
+      <div class="flex flex-col gap-2 text-sm">
+        <h4 class="font-bold mb-2 text-lg">Socials</h4>
+        <a href="mailto:sgarkaan@gmail.com" target="_blank" class="w-fit flex gap-2 group"><i class="ri-mail-fill group-hover:text-accent"></i><span class="group-hover:text-accent">sgarkaan02@gmail.com</span></a>
+        <a href="https://instagram.com/shabiqghazi" target="_blank" class="w-fit flex gap-2 group"><i class="ri-instagram-fill group-hover:text-accent"></i><span class="group-hover:text-accent">shabiqghazi</span></a>
+        <a href="https://linkedin.com/in/shabiqghazi" target="_blank" class="w-fit flex gap-2 group"><i class="ri-linkedin-fill group-hover:text-accent"></i><span class="group-hover:text-accent">Shabiq Ghazi Arkaan</span></a>
+        <a href="https://x.com/shabiqghazi" target="_blank" class="w-fit flex gap-2 group"><i class="ri-twitter-x-line group-hover:text-accent"></i><span class="group-hover:text-accent">shabiqghazi</span></a>
+      </div>
+    </div>
+  </footer>
+  <p class="text-light font-light text-center py-6 bg-gray-900 text-xs">&copy; 2023 Shabiq Ghazi Arkaan</p>
+
+  <dialog class="backdrop:bg-black/60 bg-seccondary rounded-2xl px-5 py-5">
+    <div class="flex justify-end mb-5">
+      <button class="border border-white outline-0 rounded-full flex justify-center items-center w-9 aspect-square">
+        <i class="ri-close-large-line"></i>
+      </button>
+    </div>
+    <div class="dialog-body lg:max-w-3xl w-full">
+      <img src="" id="dialog-img" class="lg:max-w-3xl w-full" alt="">
+    </div>
+  </dialog>
+  <!-- Some js script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./node_modules/particles.js/particles.js"></script>
+  <script>
+    // aos js init
+    AOS.init();
+    // particle js init
+    particlesJS.load('particles-js', 'assets/config/particlesjs-config.json');
+  </script>
+  <script src="./js/navbar.js"></script>
+  <script src="./js/home-skills-icon.js"></script>
+  <script src="./js/image-preview.js"></script>
+  <script src="./js/carousel.js"></script>
+</body>
+</html>
